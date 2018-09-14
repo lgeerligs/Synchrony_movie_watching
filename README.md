@@ -9,7 +9,7 @@ This code reproduces the measures that were reported in the paper, performs the 
 
 **relate_synchrony_to_cognition.m** relates synchrony to cognitive performance scores. 
 
-**WSBM_community_detection.m** find communities of participants based on the timecourses within clusters.
+**WSBM_community_detection.m** finds communities of participants based on their cluster timecourses.
 
 **synchrony_over_time.m** computes time-varying synchrony using sliding window analyses. 
 
@@ -23,11 +23,11 @@ Canlab core toolbox - https://github.com/canlab/CanlabCore
 
 
 ## Data 
-The data files descibed below are available from 11633/di.dcc.DSC_2018.00013_064 
+The data files descibed below are available from the Research Data Repository of the Donders Institute (DI) for Brain, Cognition and Behaviour (http://hdl.handle.net/11633/di.dcc.DSC_2018.00013_064).
 
-**residuals_subject_selection.mat** contains the a number of attributes of the participants, including their age, gender, head motion (max - rms_max and total - rms_tot) and subject IDs (CCID). It also contains the variable residuals, which contains the timecourses of each of 748 ROIs and each participant (in Craddock_ROIs_included_ordered.nii) 
+**residuals_subject_selection.mat** contains a number of attributes of the participants, including their age, gender, head motion (max - rms_max and total - rms_tot) and subject IDs (CCID). It also includes the variable residuals, which contains the timecourses for each of 748 ROIs and for each participant (in Craddock_ROIs_included_ordered.nii) 
 
-**Modules.mat** contains the variable modcor, which gives the module numbers for each of the ROIs in the data. The network labels correspond to each of the module numbers of in the variable network_name. ROIs numbered with a 0 were not part of any of the modules. 
+**Modules.mat** contains the variable modcor, which gives the module numbers for each of the ROIs in the data. The network labels correspond to each of the module numbers in the variable network_name. ROIs numbered with a 0 were not part of any of the modules. 
 
 **Behavioral_data.mat** contains the cognitive performance scores for all participants
 
