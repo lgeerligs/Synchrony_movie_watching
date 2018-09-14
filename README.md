@@ -23,13 +23,13 @@ Canlab core toolbox - https://github.com/canlab/CanlabCore
 
 
 ## Data 
-The data files descibed below are available from the Research Data Repository of the Donders Institute (DI) for Brain, Cognition and Behaviour (http://hdl.handle.net/11633/di.dcc.DSC_2018.00013_064).
+The data files described below are the input for the scripts provided here. The data are available from the Research Data Repository of the Donders Institute (DI) for Brain, Cognition and Behaviour (http://hdl.handle.net/11633/di.dcc.DSC_2018.00013_064).
 
-**residuals_subject_selection.mat** contains a number of attributes of the participants, including their age, gender, head motion (max - rms_max and total - rms_tot) and subject IDs (CCID). It also includes the variable residuals, which contains the timecourses for each of 748 ROIs and for each participant (in Craddock_ROIs_included_ordered.nii) 
+**residuals_subject_selection.mat** contains a number of attributes of the participants, including their age, gender, head motion (max - rms_max and total - rms_tot) and subject IDs (CCID). It also includes the variable residuals, which contains the timecourses for each of 748 ROIs (in the ROI file **Craddock_ROIs_included_ordered.nii**) and for each participant. 
 
 **Modules.mat** contains the variable modcor, which gives the module numbers for each of the ROIs in the data. The network labels correspond to each of the module numbers in the variable network_name. ROIs numbered with a 0 were not part of any of the modules. 
 
-**Behavioral_data.mat** contains the cognitive performance scores for all participants
+**Behavioral_data.mat** contains the cognitive performance scores for all participants.
 
-**WMdata.mat**, the variable WMdata contains the mean kurtosis values for a set of WM tracts from the JHU atlas (JHU-ICBM-tracts-maxprob-thr25-2mm.nii), it also contains the intracrantial volume (TIV) and an index of the stripes in the diffusion data (stripeind). Participants with values larger than 0.1 were excluded from the analysis. 
+**WMdata.mat**, the variable WMdata contains the mean kurtosis values for a set of WM tracts from the JHU atlas (**JHU-ICBM-tracts-maxprob-thr25-2mm.nii**), it also contains the intracrantial volume (TIV) and an index of the stripes in the diffusion data (stripeind). Participants with values larger than 0.1 were excluded from the analysis. 
 
