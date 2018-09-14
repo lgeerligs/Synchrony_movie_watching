@@ -1,4 +1,12 @@
-%% relate synchrony to cognitive performance measures
+% This script reproduces part of the analyses in the paper “Age-related differences in 
+% information processing during movie watching”. 
+% https://doi.org/10.1016/j.neurobiolaging.2018.07.025
+
+% In particular, it can be used to relate synchrony to cognitive performance scores. 
+
+% L Geerligs 14 sept 2018
+
+% You will need to change the paths below to match your machine
 
 clear all
 

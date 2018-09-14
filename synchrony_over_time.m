@@ -1,4 +1,10 @@
-%% Use a sliding window analysis to get synchrony over time and use phase randomization to test for significant differences
+% This script reproduces part of the analyses in the paper “Age-related differences in 
+% information processing during movie watching”. 
+% https://doi.org/10.1016/j.neurobiolaging.2018.07.025
+
+% In particular, it can be used to compute time-varying synchrony using sliding window analyses. 
+
+% L Geerligs 14 sept 2018
 
 clear all
 

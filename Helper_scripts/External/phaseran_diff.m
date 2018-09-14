@@ -27,6 +27,9 @@ function surrblk = phaseran(recblk,nsurr)
 %   Carlos Gias
 %   Date: 21/08/2011
 
+%  Edited by Linda Geerligs to make sure that the surrogate data is created
+%  using different phase randomizations in each recording.
+
 % Reference:
 % Prichard, D., Theiler, J. Generating Surrogate Data for Time Series
 % with Several Simultaneously Measured Variables (1994)
